@@ -23,6 +23,12 @@ public class CalculadoraSimples{
 
             if(op == 1){
                 System.out.println("\n\t\t\t -- Soma --\n");
+                System.out.print("Digite o primeiro número: ");
+                n1 = entrada.nextInt();
+                System.out.print("Digite o segundo número: ");
+                n2 = entrada.nextInt();
+                resultado = n1 + n2;
+                System.out.println("O resultado da soma é: " + resultado);
             } else if(op == 2){
                 System.out.println("\n\t\t\t -- Subtração --\n");
             } else if(op == 3){
