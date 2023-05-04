@@ -30,7 +30,20 @@ public class CalculadoraSimples{
                 resultado = n1 + n2;
                 System.out.println("O resultado da soma é: " + resultado);
             } else if(op == 2){
+                //Laura
                 System.out.println("\n\t\t\t -- Subtração --\n");
+
+                //Entrada
+                System.out.print("Digite o primeiro número: ");
+                n1 = entrada.nextInt();
+                System.out.print("Digite o segundo número: ");
+                n2 = entrada.nextInt();
+
+                //Processamento
+                total = n1 - n2
+
+                //Saída
+                System.out.printf("%d - %d = %d", n1, n2, total);
             } else if(op == 3){
                 System.out.println("Forte abraço!");
             }else{
